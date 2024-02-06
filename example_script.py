@@ -1,10 +1,7 @@
-from systems_of_eqns import evolution_equations_2PN
+from systems_of_eqns import evolution_equations_2PN, MTSUN_SI
 from scipy.integrate import solve_ivp
 from scipy.interpolate import interp1d
 import numpy as np
-import pandas
-import lal
-from tqdm import tqdm
 from utils import freq, f0_from_a0, time_to_coalescence_circular
 
 e0 = 0.9
@@ -20,7 +17,7 @@ m1, m2 = m1_src * (1 + redshift), m2_src * (1 + redshift)
 MTOT = m1 + m2
 eta = m1 * m2 / (m1 + m2) ** 2
 f0 = f0_from_a0(a0_in_AU, m1, m2)
-v0 = (MTOT * lal.MTSUN_SI * np.pi * f0) ** (1 / 3)
+v0 = (MTOT * MTSUN_SI * np.pi * f0) ** (1 / 3)
 tmax = time_to_coalescence_circular(f0, m1, m2)  # APPROXIMATE USING CIRCULAR CASE
 if tmax < 1e6:
     tmax = 1e6  # INTEGRATE AT LEAST FOR 1e6 seconds
