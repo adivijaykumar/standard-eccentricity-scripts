@@ -3,11 +3,11 @@
 
 <sub>1. Canadian Institute for Theoretical Astrophysics, University of Toronto, 60 St George St,  Toronto, ON M5S 3H8, Canada</sub>  
 <sub>2. International Centre for Theoretical Sciences, Tata Institute of Fundamental Research, Bangalore  560089, India</sub>  
-<sub>3. Department of Physics, The University of Chicago, 5640 South Ellis Avenue, Chicago, Illinois 60637, USA </sub>
-<sub>4. Kavli Institute for Cosmological Physics, The University of Chicago, 5640 South Ellis Avenue, Chicago, Illinois 60637, USA </sub>
-<sub>5. Enrico Fermi Institute, The University of Chicago, 933 East 56th Street, Chicago, Illinois 60637, USA </sub>
-<sub>6. Adler Planetarium, 1300 South DuSable Lake Shore Drive, Chicago, IL, 60605, USA </sub>
-<sub>7. Center for Interdisciplinary Exploration and Research in Astrophysics (CIERA), Northwestern University, Evanston, IL, 60201, USA </sub>
+<sub>3. Department of Physics, The University of Chicago, 5640 South Ellis Avenue, Chicago, Illinois 60637, USA </sub>  
+<sub>4. Kavli Institute for Cosmological Physics, The University of Chicago, 5640 South Ellis Avenue, Chicago, Illinois 60637, USA </sub>  
+<sub>5. Enrico Fermi Institute, The University of Chicago, 933 East 56th Street, Chicago, Illinois 60637, USA </sub>  
+<sub>6. Adler Planetarium, 1300 South DuSable Lake Shore Drive, Chicago, IL, 60605, USA </sub>  
+<sub>7. Center for Interdisciplinary Exploration and Research in Astrophysics (CIERA), Northwestern University, Evanston, IL, 60201, USA </sub>  
 
 ## Summary of scripts
 
