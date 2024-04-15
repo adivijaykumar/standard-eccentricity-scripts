@@ -17,8 +17,9 @@
 
 ## Citation
 
-We encourage use of the scripts here in other works. If you use the material provided here, please cite the paper using the reference:
+We encourage use of the scripts here in other works. If you use the material provided here, please cite:
 
-REFERENCE TO BE UPDATED
+1. The paper https://ui.adsabs.harvard.edu/abs/2024arXiv240207892V/abstract
+2. The zenodo entry (with DOI) for this repository 
 
 Please get in touch on email/github if you have any questions or comments!
