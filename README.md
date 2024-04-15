@@ -23,5 +23,6 @@ We encourage use of the scripts here in other works. If you use the material pro
 
 1. The paper https://ui.adsabs.harvard.edu/abs/2024arXiv240207892V/abstract
 2. The zenodo entry (with DOI) for this repository https://zenodo.org/doi/10.5281/zenodo.10974974
+3. The zenodo entry for the data release https://zenodo.org/doi/10.5281/zenodo.10633004
 
 Please get in touch on email/github if you have any questions or comments!
