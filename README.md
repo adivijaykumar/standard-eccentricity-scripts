@@ -17,9 +17,9 @@
 - `utils.py` contains some basic utility functions
 - `example_script.py` takes an example end state of a binary from astrophysical simulations and illustrates how to extract eccentricity at a specified $f_{22}$ or $M f_{22}$. To reiterate, the general algorithm is:
 
-  1. Use the source frame quantities (initial separation, initial eccentricity, masses) to get the e vs f curve. Interpolate this curve.
-  2. If you want to extract e at fixed (det frame) f22, evaluate the interpolant at f22 * (1 + redshift)
-  3. f instead you want e at fixed M * f22, then evaluate the interpolant at M_times_f22 / Mtot_src
+  1. Use the source frame quantities (initial separation, initial eccentricity, masses) to get the $e$ vs $f_{22}$ (source-frame) curve. Interpolate this curve.
+  2. If you want to extract $e$ at fixed $f_{22}$ (det-frame), evaluate the interpolant at $f_{22} \times (1 + z)$, where $z$ is the redshift of the source.
+  3. If instead you want $e$ at fixed $M \times f_{22}$, then evaluate the interpolant at `M_times_f22 / Mtot_src`.
 
 
 ## Citation
