@@ -19,7 +19,7 @@
 
   1. Use the source frame quantities (initial separation, initial eccentricity, masses) to get the $e$ vs $f_{22}$ (source-frame) curve. Interpolate this curve.
   2. If you want to extract $e$ at fixed $f_{22}$ (det-frame), evaluate the interpolant at $f_{22} \times (1 + z)$, where $z$ is the redshift of the source.
-  3. If instead you want $e$ at fixed $M \times f_{22}$, then evaluate the interpolant at `M_times_f22 / Mtot_src`.
+  3. If instead you want $e$ at fixed $M f_{22}$, then evaluate the interpolant at $M f_{22} / M^{\rm tot}_{\rm src}$.
 
 
 ## Citation
